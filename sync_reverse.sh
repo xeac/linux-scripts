@@ -15,7 +15,3 @@ sudo rsync -zvh /vhd/u-svr-LFS201.qcow2 /var/lib/libvirt/images
 sudo rsync -zvh /vhd/u-webmin.qcow2 /var/lib/libvirt/images
 sudo rsync -zvh /vhd/u-web.qcow2 /var/lib/libvirt/images
 
-
-
-
-
