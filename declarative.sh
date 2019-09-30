@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#This is declarative Bash script. Actions will only be taken if needed.
+#This is a declarative Bash script. Actions will only be taken if needed.
 
 if [! -f $(pwd)/file-declarative.txt ]; then
     echo "Declarative" >> file-declarative.txt
