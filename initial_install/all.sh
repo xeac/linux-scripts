@@ -10,6 +10,9 @@ sudo chmod +x update.sh
 sh update.sh
 
 sudo apt install git
+git config --global user.name "Martin Georgiev"
+git config --global user.email "mggeorgiev@gmail.com"
+git config --list
 
 #Pull git repository
 mkdir linux_scripts
