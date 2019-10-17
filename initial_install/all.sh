@@ -20,3 +20,10 @@ cd linux_scripts
 git init
 git remote add origin https://github.com/mggeorgiev/linux-scripts.git
 git pull origin master
+
+#install KVM
+sudo apt install cpu-checker
+sudo apt update
+sudo apt install qemu qemu-kvm libvirt-bin  bridge-utils  virt-manager
+sudo service libvirtd start
+sudo update-rc.d libvirtd enable
